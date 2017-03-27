@@ -1,0 +1,146 @@
+body {
+font-family: raleway;
+    margin: 0;
+}
+
+.header {
+/*    min-width: 1170px;*/
+/*    min-height: 800px;*/
+    background-image: url(../img/hero.png);
+    color: white;
+    padding-top: 50px;
+/*    margin: 0 auto;*/
+
+}
+header {
+/*    width: 100%;*/
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+logo {
+    display: inline-block;
+}
+h1 {
+    display: none;
+    
+}
+nav {
+   display: inline-block;
+}
+.navi {
+    color: white;
+}
+
+ {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+.headtext {
+    padding-top: 200px;
+}
+p {
+    text-align: center;
+}
+.button {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    
+}
+/*-----------------------OUR SERVICES----------------------------*/ 
+.services {
+    padding: 50px;
+    width: 1024px;
+    margin: 0 auto;
+}
+#oursh {
+    padding-bottom: 45px;
+}
+
+.servpics {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+h2 {
+    text-align: center;
+}
+
+.items {
+    text-align: center;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+h3 {
+    padding: 30px;
+}
+#comp {
+    margin: 0;
+}
+#chkb {
+    padding-top: 45px;
+}
+
+/*------------------------MAGNA----------------------------*/
+
+.magna {
+     background-image: url(../img/fon2.png);
+    min-height: 300px;
+    color: white;
+    font-family: lato;
+}
+.magnacont {
+    display: flex;
+    margin: 0 auto;
+    width: 1024px;
+/*    align-items: flex-end;*/
+    padding-top: 100px;
+}
+
+.magnatxt {
+    vertical-align: middle;
+    padding-top: 100px;
+}
+
+/*-------------------------OUR WORK*-----------------*/
+.ourwork {
+    padding-top: 50px;
+    width: 1024px;
+}
+.imgworks {
+    width: 1024px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.imgitem {
+    width: 300px;
+    height: 300px;
+}
+
+.buttonmore {
+    text-align: center;
+    border: solid 1px;
+    width: 100px;
+}
+.imgworks {
+    display: flex;
+    justify-content: space-around
+}
+
+/*----------------------CONTACTS--------------------------*/
+.contacts {
+     background-image: url(../img/footer-bg.png);
+     min-height: 600px;
+    margin: 0 auto;
+}
